@@ -1,11 +1,5 @@
-<!-- .slide: data-state="section-break" id="section-break-3" data-timing="10s" -->
+<!-- .slide: data-state="section-break" id="section-break-4" data-timing="10s" -->
 # Ceph
-
-
-<!-- .slide: data-state="normal" id="ceph-overview" data-timing="20s" data-menu-title="Ceph Components" -->
-<center><img src="images/ceph-stack.svg" style="width:80%"></center>
-
-NOTE: well known picture, short info on components
 
 
 <!-- .slide: data-state="normal" id="ceph-store-emails-2" data-timing="20s" data-menu-title="Ceph: Option CephFS" -->

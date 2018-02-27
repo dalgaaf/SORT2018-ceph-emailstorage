@@ -1,17 +1,16 @@
 <!-- .slide: data-state="cover" id="cover-page" data-timing="20" -->
 <br>
-Ceph Day - Germany 2018 / Darmstadt
+SORT 2018 - Cologne
 <br>
 <br>
-## Email Storage
-with 
+## Ceph Luminous/Mimic
+and 
 <br>
+## How to store 6.7 billion emails
 <br>
-## Ceph
-
 <br>
 Danny Al-Gaaf <br>
-Deutsche Telekom AG
-
+Deutsche Telekom Technik GmbH - FMED
 <br>
-<img src="images/T_Logo_3c_p_DE.png" style="width:15%;">
+<img src="images/T_Logo_3c_p_DE.png" style="width:15%; left: -1.5%; position: absolute">
+
