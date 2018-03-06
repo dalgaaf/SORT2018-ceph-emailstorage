@@ -9,6 +9,7 @@
     font-family: "Open Sans Condensed", sans-serif;
     font-weight: normal;
     font-size: 30px;
+    color: #555555;
 
     section img {
         /* Disable background 4px border around images */
@@ -54,14 +55,15 @@
 
     h2 {
         font-size: 1.6em;
-        margin-top: 1rem;
+        margin-top: 0.8rem;
         margin-bottom: 2rem;
     }
 
     h3 {
         /* before 1.5em */
-        margin-top: 1.0em;
         font-size: 1.0em;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
     }
 
     h1, h2, h3, h4, h5 {

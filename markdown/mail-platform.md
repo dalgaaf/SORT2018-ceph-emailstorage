@@ -1,9 +1,9 @@
 <!-- .slide: data-state="section-break" id="section-break-3" data-timing="10s" -->
-# TelekomMail platform
+# 6.7b emails in Ceph
 
 
 <!-- .slide: data-state="normal" id="telekommail" data-timing="20s" data-menu-title="TelekomMail" -->
-## TelekomMail
+## TelekomMail platform
 
 * DT's mail platform for customers <!-- .element class="fragment" data-fragment-index="1"-->
 * dovecot <!-- .element class="fragment" data-fragment-index="2"-->

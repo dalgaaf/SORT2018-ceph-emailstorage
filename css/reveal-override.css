@@ -6,6 +6,7 @@
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: normal;
   font-size: 30px;
+  color: #555555;
   /* Make sure keyboard shortcuts help is visible */
   /* Blow iframe up to full screen size */
 }
@@ -43,13 +44,14 @@
 }
 .reveal h2 {
   font-size: 1.6em;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   margin-bottom: 2rem;
 }
 .reveal h3 {
   /* before 1.5em */
-  margin-top: 1.0em;
   font-size: 1.0em;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
   font-family: "Roboto", sans-serif;
