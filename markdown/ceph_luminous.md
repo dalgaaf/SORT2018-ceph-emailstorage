@@ -19,11 +19,39 @@
 Note: May still use SSD or NVMe for journals
 
 
-<!-- .slide: data-state="normal" id="ceph-luminous-2" data-timing="20s" data-menu-title="BlueStore Performance" -->
-## TBA
+<!-- .slide: data-state="normal" id="ceph-luminous-2" data-timing="20s" data-menu-title="Ceph Overview" -->
+<center><img src="images/cephfs_legend.svg" style="width:65%"></center>
 
 
-<!-- .slide: data-state="normal" id="ceph-luminous-3" data-timing="20s" data-menu-title="Erasure code" -->
+<!-- .slide: data-state="normal" id="ceph-luminous-3.1" data-timing="20s" data-menu-title="BlueStore Performance HDD RW" -->
+<center><img src="images/bluestore_hdd_rw.svg" style="width:90%"></center>
+
+
+<!-- .slide: data-state="normal" id="ceph-luminous-3.3" data-timing="20s" data-menu-title="BlueStore Performance HDD RRW" -->
+<center><img src="images/bluestore_hdd_rrw.svg" style="width:90%"></center>
+
+
+<!-- .slide: data-state="normal" id="ceph-luminous-3.2" data-timing="20s" data-menu-title="BlueStore Performance HDD/NVMe RRW" -->
+<center><img src="images/bluestore_hdd-nvme_rrw.svg" style="width:90%"></center>
+
+
+<!-- .slide: data-state="normal" id="ceph-luminous-3.4" data-timing="20s" data-menu-title="BlueStore Performance HDD SW" -->
+<center><img src="images/bluestore_hdd_sw.svg" style="width:90%"></center>
+
+
+<!-- .slide: data-state="normal" id="ceph-luminous-3.5" data-timing="20s" data-menu-title="BlueStore Performance HDD RBD RW" -->
+<center><img src="images/bluestore_hdd_rw_rbd.svg" style="width:100%"></center>
+
+
+<!-- .slide: data-state="normal" id="ceph-luminous-3.6" data-timing="20s" data-menu-title="BlueStore Performance HDD RGW W Repl" -->
+<center><img src="images/bluestore_hdd_rgw_w.svg" style="width:95%"></center>
+
+
+<!-- .slide: data-state="normal" id="ceph-luminous-3.7" data-timing="20s" data-menu-title="BlueStore Performance HDD RGW W EC" -->
+<center><img src="images/bluestore_hdd_rgw_wEC.svg" style="width:100%"></center>
+
+
+<!-- .slide: data-state="normal" id="ceph-luminous-4" data-timing="20s" data-menu-title="Erasure code" -->
 ## RBD/CephFS on erasure coded pools
 
 ### requires BlueStore
@@ -39,7 +67,7 @@ Note: May still use SSD or NVMe for journals
   * less total data to be written on media
 
 
-<!-- .slide: data-state="normal" id="ceph-luminous-4" data-timing="20s" data-menu-title="Ceph Manager (ceph-mgr)" -->
+<!-- .slide: data-state="normal" id="ceph-luminous-5" data-timing="20s" data-menu-title="Ceph Manager (ceph-mgr)" -->
 ## Ceph Manager daemon (ceph-mgr)
 
 ### Supplement to ceph-mon
@@ -55,7 +83,7 @@ Note: May still use SSD or NVMe for journals
 ### Other modules: zabbix, influxdb, prometheus, restful
 
 
-<!-- .slide: data-state="normal" id="ceph-luminous-5" data-timing="20s" data-menu-title="AsyncMessenger" -->
+<!-- .slide: data-state="normal" id="ceph-luminous-6" data-timing="20s" data-menu-title="AsyncMessenger" -->
 ## AsyncMessenger
 
 ### All Ceph services use “Messenger” classes for communications
@@ -70,7 +98,7 @@ Note: May still use SSD or NVMe for journals
 * Prototype stage
 
 
-<!-- .slide: data-state="normal" id="ceph-luminous-6" data-timing="20s" data-menu-title="OSD Balance" -->
+<!-- .slide: data-state="normal" id="ceph-luminous-7" data-timing="20s" data-menu-title="OSD Balance" -->
 ## Improved OSD balance
 
 ### CRUSH choose_args
@@ -85,7 +113,7 @@ Note: May still use SSD or NVMe for journals
 * Requires >= luminous clients
 
 
-<!-- .slide: data-state="normal" id="ceph-luminous-7" data-timing="20s" data-menu-title="RADOS improvements" -->
+<!-- .slide: data-state="normal" id="ceph-luminous-8" data-timing="20s" data-menu-title="RADOS improvements" -->
 ## Other RADOS improvements
 
 * CRUSH device classes: easily map pools to SSDs, HDDs
@@ -98,7 +126,7 @@ Note: May still use SSD or NVMe for journals
 * Faster OSD failure detection
 
 
-<!-- .slide: data-state="normal" id="ceph-luminous-8" data-timing="20s" data-menu-title="CephFS" -->
+<!-- .slide: data-state="normal" id="ceph-luminous-9" data-timing="20s" data-menu-title="CephFS" -->
 ## CephFS
 
 ### Multiple active MDS daemons
@@ -114,7 +142,7 @@ Note: May still use SSD or NVMe for journals
 ### Many bugs fixed, tests added
 
 
-<!-- .slide: data-state="normal" id="ceph-luminous-9" data-timing="20s" data-menu-title="RGW" -->
+<!-- .slide: data-state="normal" id="ceph-luminous-10" data-timing="20s" data-menu-title="RGW" -->
 ## RGW
 
 * NFS gateway: NFSv4 and v3
@@ -125,7 +153,7 @@ Note: May still use SSD or NVMe for journals
 * Metadata search
 
 
-<!-- .slide: data-state="normal" id="ceph-luminous-10" data-timing="20s" data-menu-title="RBD" -->
+<!-- .slide: data-state="normal" id="ceph-luminous-11" data-timing="20s" data-menu-title="RBD" -->
 ## RBD
 
 ### Support for erasure coded pools

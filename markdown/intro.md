@@ -42,5 +42,5 @@ NOTE: well known picture, short info on components
 
 
 <!-- .slide: data-state="normal" id="ceph-daemons" data-timing="20s" data-menu-title="Ceph Daemons" -->
-<center><img src="images/cephfs_legend.svg" style="height:80%"></center>
+<center><img src="images/cephfs_legend.svg" style="width:65%"></center>
 
