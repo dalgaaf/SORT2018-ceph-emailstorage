@@ -47,7 +47,12 @@ Note: May still use SSD or NVMe for journals
 <center><img src="images/bluestore_hdd_rgw_wEC.svg" style="width:100%"></center>
 
 
-<!-- .slide: data-state="normal" id="ceph-luminous-4" data-timing="20s" data-menu-title="Erasure code" -->
+<!-- .slide: data-state="normal" id="ceph-luminous-4.0" data-timing="20s" data-menu-title="Erasure code" -->
+## Replication vs. Erasure Coding
+<center><img src="images/erasurecoding.svg" style="width:100%"></center>
+
+
+<!-- .slide: data-state="normal" id="ceph-luminous-4.1" data-timing="20s" data-menu-title="Erasure code" -->
 ## RBD/CephFS on erasure coded pools
 
 ### requires BlueStore
