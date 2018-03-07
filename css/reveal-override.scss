@@ -3,7 +3,14 @@
 @import url(//fonts.googleapis.com/css?family=Special+Elite:400,700);
 @import url(//fonts.googleapis.com/css?family=Source+Code+Pro);
 
-
+.cover .reveal {
+    h2 {
+        font-size: 2.2em;
+        /* change spacing for Roboto */
+        letter-spacing: -2px;
+        margin-top: 1rem;
+    }
+}
 
 .reveal {
     font-family: "Open Sans Condensed", sans-serif;
@@ -90,24 +97,24 @@
     }
 
     .progress span {
-        background-color: black
+        background-color: black;
     }
 
     .controls {
         div.navigate-up, div.navigate-up.enabled {
-            border-bottom-color: black
+            border-bottom-color: black;
         }
 
         div.navigate-down, div.navigate-down.enabled {
-            border-top-color: black
+            border-top-color: black;
         }
 
         div.navigate-left, div.navigate-left.enabled {
-            border-right-color: black
+            border-right-color: black;
         }
 
         div.navigate-right, div.navigate-right.enabled {
-            border-left-color: black
+            border-left-color: black;
         }
     }
 
@@ -187,7 +194,7 @@
             }
 
             h2 {
-                font-size: 32pt;
+                font-size: 2em;
                 font-weight: normal;
             }
 

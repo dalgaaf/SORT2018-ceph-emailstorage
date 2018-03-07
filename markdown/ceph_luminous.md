@@ -19,10 +19,6 @@
 Note: May still use SSD or NVMe for journals
 
 
-<!-- .slide: data-state="normal" id="ceph-luminous-2" data-timing="20s" data-menu-title="Ceph Overview" -->
-<center><img src="images/cephfs_legend.svg" style="width:65%"></center>
-
-
 <!-- .slide: data-state="normal" id="ceph-luminous-3.1" data-timing="20s" data-menu-title="BlueStore Performance HDD RW" -->
 <center><img src="images/bluestore_hdd_rw.svg" style="width:90%"></center>
 

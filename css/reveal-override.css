@@ -2,6 +2,13 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 @import url(//fonts.googleapis.com/css?family=Special+Elite:400,700);
 @import url(//fonts.googleapis.com/css?family=Source+Code+Pro);
+.cover .reveal h2 {
+  font-size: 2.2em;
+  /* change spacing for Roboto */
+  letter-spacing: -2px;
+  margin-top: 1rem;
+}
+
 .reveal {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: normal;
@@ -148,7 +155,7 @@
   font-weight: bold;
 }
 .section-break .reveal .slides > section h2 {
-  font-size: 32pt;
+  font-size: 2em;
   font-weight: normal;
 }
 .section-break .reveal .slides > section code {

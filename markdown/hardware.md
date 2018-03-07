@@ -5,7 +5,7 @@
 <!-- .slide: data-state="normal" id="hardware-0" data-timing="20s" data-menu-title="Hardware" -->
 ## Commodity x86_64 server
 <div>
-     <img style="position: absolute; width: 35%; left: 55%; " alt="librmb architecture overview"
+     <img style="position: absolute; width: 35%; left: 60%; " alt="librmb architecture overview"
           data-src="images/HPE-DL380Gen9.jpg" />
 </div>
 * <!-- .element: class="fragment" data-fragment-index="1" --> HPE ProLiant DL380 Gen9
@@ -20,7 +20,7 @@
 <!-- .slide: data-state="normal" id="hardware-1" data-timing="20s" data-menu-title="Hardware Server specs" -->
 ## Commodity x86_64 server
 <div>
-     <img style="position: absolute; width: 35%; left: 55%; " alt="librmb architecture overview"
+     <img style="position: absolute; width: 35%; left: 60%; " alt="librmb architecture overview"
           data-src="images/HPE-DL380Gen9.jpg" />
 </div>
 ### CephFS Nodes (MDS, OSDs) <!-- .element: class="fragment" data-fragment-index="0" -->

@@ -6,7 +6,7 @@
 ## Dovecot
 
 <div>
-    <img style="height: 20%; left: 30%; position: absolute" alt="Dovecot Logo"
+    <img style="height: 20%; left: 35%; top: 5%; position: absolute" alt="Dovecot Logo"
          data-src="images/dovecot_logo.svg" />
 </div>
 
@@ -159,7 +159,7 @@ MAILBOX: M(mailbox_guid)=ad54230e65b49a59381100009c60b9f7
 ## Which Ceph Release?
 
 <div>
-     <img style="width: 45%; left: 47%; position: absolute" alt="ceph luminous"
+     <img style="width: 45%; left: 55%; position: absolute" alt="ceph luminous"
           data-src="images/ceph-luminous.png" />
 </div> <!-- .element: class="fragment" data-fragment-index="5" -->
 

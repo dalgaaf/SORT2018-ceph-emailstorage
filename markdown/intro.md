@@ -1,6 +1,7 @@
 <!-- .slide: data-state="cover" id="cover-page" data-timing="20" -->
-<br>
+<img src="images/Ceph_Logo_Stacked_RGB_120411_fa.png" style="width:20%; left: 85%; top:-2%; position: absolute">
 SORT 2018 - Cologne
+<br>
 <br>
 <br>
 ## Ceph Luminous/Mimic
@@ -8,11 +9,10 @@ and
 <br>
 ## How to store 6.7 billion emails
 <br>
-<br>
 Danny Al-Gaaf <br>
 Deutsche Telekom Technik GmbH - FMED
 <br>
-<img src="images/T_Logo_3c_p_DE.png" style="width:15%; left: -1.5%; position: absolute">
+<img src="images/T_Logo_3c_p_DE.png" style="width:10%; left: -1.5%; position: absolute">
 
 
 <!-- .slide: data-state="section-break" id="ceph-release-timeline-1" data-menu-title="Ceph Release Timeline" data-background-image="images/ceph-release-timeline.png" data-background-size="cover" data-timing="10s" -->
