@@ -58,7 +58,7 @@ Note: May still use SSD or NVMe for journals
 * Significant better efficiency than 3x replica
   * 2+2 EC -> 2x , 4+2 EC -> 1.5x
 * Small writes significant slower than 3x replica
-  * 4-2 EC -> 0.5x
+  * 4+2 EC -> 0.5x
 * Large writes faster than replication
   * less total data to be written on media
 
