@@ -165,7 +165,7 @@ Note: 3xRepl - 200% overhead, quick recovery / EC - cost-efficiant, 50% overhead
 * Cooperative HA daemons
 * Improved integration with OpenStack Cinder
 
-### ISCSI
+### iSCSI
 * LIO + tcmu-runner using librbd
 
 ### Better Kernel RBD feature coverage
