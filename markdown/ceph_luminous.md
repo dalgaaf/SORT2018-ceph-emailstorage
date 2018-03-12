@@ -51,6 +51,8 @@ Note: May still use SSD or NVMe for journals
 ## Replication vs. Erasure Coding
 <center><img src="images/erasurecoding.svg" style="width:100%"></center>
 
+Note: 3xRepl - 200% overhead, quick recovery / EC - cost-efficiant, 50% overhead, expensive recovery, solves 2FC problems
+
 
 <!-- .slide: data-state="normal" id="ceph-luminous-4.1" data-timing="20s" data-menu-title="Erasure code" -->
 ## RBD/CephFS on erasure coded pools
