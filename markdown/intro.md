@@ -21,18 +21,18 @@ Deutsche Telekom Technik GmbH - FMED
 <!-- .slide: data-state="normal" id="ceph-release-timeline-2" data-timing="20s" data-menu-title="New Release Cycle" -->
 ## New Release Cycle
 
-### Till Luminous
-* 6 month release cycle
-* every second release were LTS
-* too slow LTS cycle
-* non-LTS used in production sometimes
+### Till Luminous <!-- .element class="fragment" data-fragment-index="1"-->
+* 6 month release cycle <!-- .element class="fragment" data-fragment-index="1"-->
+* every second release were LTS <!-- .element class="fragment" data-fragment-index="1"-->
+* too slow LTS cycle <!-- .element class="fragment" data-fragment-index="1"-->
+* non-LTS used in production sometimes <!-- .element class="fragment" data-fragment-index="1"-->
 
-### With Mimic
-* 9 month release cycle, all releases are stable
-* Bugfix backport for two subsequent releases
-* Upgrade support for N-2
+### With Mimic <!-- .element class="fragment" data-fragment-index="2"-->
+* 9 month release cycle, all releases are stable <!-- .element class="fragment" data-fragment-index="2"-->
+* Bugfix backport for two subsequent releases <!-- .element class="fragment" data-fragment-index="2"-->
+* Upgrade support for N-2 <!-- .element class="fragment" data-fragment-index="2"-->
 
-### Vendors select releases for LTS in their products
+### Vendors select releases for LTS in their products <!-- .element class="fragment" data-fragment-index="3"-->
 
 
 <!-- .slide: data-state="normal" id="ceph-overview" data-timing="20s" data-menu-title="Ceph Components" -->
