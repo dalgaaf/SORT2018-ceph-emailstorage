@@ -44,3 +44,8 @@ NOTE: well known picture, short info on components
 <!-- .slide: data-state="normal" id="ceph-daemons" data-timing="20s" data-menu-title="Ceph Daemons" -->
 <center><img src="images/cephfs_legend.svg" style="width:65%"></center>
 
+
+<!-- .slide: data-state="normal" id="ceph-openstack-block" data-timing="20s" data-menu-title="OpenStack Block" -->
+<center><img src="images/OS-Storage-April2017SurveyReport.svg" style="width:85%"></center>
+
+Note: OpenStack User Survey April 2017, November: RBD 67%, LVM 21%, Huawei 16%, NetApp 13%, NFS 10%, EMC 7%, Rest less than 4%
