@@ -119,14 +119,14 @@ Note: 3xRepl - 200% overhead, quick recovery / EC - cost-efficiant, 50% overhead
 <!-- .slide: data-state="normal" id="ceph-luminous-8" data-timing="20s" data-menu-title="RADOS improvements" -->
 ## Other RADOS improvements
 
-* CRUSH device classes: easily map pools to SSDs, HDDs <!-- .element class="fragment" -->
-* Simplified disk replacement procedure <!-- .element class="fragment" -->
-* require_min_compat_client for safer configuration <!-- .element class="fragment" -->
-* Built-in configuration option metadata (docstrings etc) <!-- .element class="fragment" -->
-* Client backoff on stuck PGs/objects <!-- .element class="fragment" -->
-* Improved EIO handling on OSDs <!-- .element class="fragment" -->
-* Faster placement group peering <!-- .element class="fragment" -->
-* Faster OSD failure detection <!-- .element class="fragment" -->
+* CRUSH device classes: easily map pools to SSDs, HDDs
+* Simplified disk replacement procedure
+* require_min_compat_client for safer configuration
+* Built-in configuration option metadata (docstrings etc)
+* Client backoff on stuck PGs/objects
+* Improved EIO handling on OSDs
+* Faster placement group peering
+* Faster OSD failure detection
 
 
 <!-- .slide: data-state="normal" id="ceph-luminous-9" data-timing="20s" data-menu-title="CephFS" -->
